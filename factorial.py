@@ -1,5 +1,5 @@
 # factorial.py
-# Example: 5! = 5 * 4 * 3 * 2 * 1 = 120
+# Example: 
 def factorial_iterative(n):
     if n < 0:
         raise ValueError("Factorial is not defined for negative numbers.")

@@ -14,6 +14,6 @@ print(bitcoin.get_crypto_info())  # Bitcoin details
 print(ethereum.get_crypto_info())  # Ethereum details
 print(apple_stock.get_stock_info())  # Stock details
 
-# print(bitcoin.get_info())
-# print(ethereum.get_info())
-# print(apple_stock.get_info())
+print(bitcoin.get_info())
+print(ethereum.get_info())
+print(apple_stock.get_info())

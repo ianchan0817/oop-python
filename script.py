@@ -1,5 +1,5 @@
 def get_asset_details(name, ticker, price, market_cap=None, blockchain=None, exchange=None):
-    asset_info = f"{name} ({ticker}): ${price}"  # Basic asset info
+    asset_info = f"{name} ({ticker})** ${price}"  # Basic asset info
 
     if blockchain:  # Check if it's a cryptocurrency
         market_cap_info = f"Market Cap: ${market_cap}"

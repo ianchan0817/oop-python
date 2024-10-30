@@ -6,5 +6,5 @@ class Asset:
         self.price = price  # Current price of the asset
 
     def get_info(self):
-        return f"{self.name} ({self.ticker}): ${self.price}"
+        return f"{self.name} ({self.ticker})** ${self.price}"
     
